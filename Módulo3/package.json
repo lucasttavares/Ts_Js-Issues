@@ -1,0 +1,24 @@
+{
+  "name": "atividade_5_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "babel ./Questão.js -o ./bundle.js -w"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.1",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-async-generators": "^7.8.4",
+    "typescript": "^4.2.4"
+  }
+}
